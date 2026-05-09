@@ -9,7 +9,7 @@ const Navbar = () => {
 
         <>    
 
-            <nav  className="fixed font-mono top-0 left-0 right-0 z-50 flex justify-between items-center px-8 lg:px-12 py-4 border-b border-green-border bg-bg/85 backdrop-blur-md">
+            <nav  className="fixed font-mono top-0 left-0 right-0 z-50 flex justify-between items-center px-8 lg:px-12 py-4 border-b border-green-border bg-bg backdrop-blur-md">
                 <header className="text-green">SALAMI</header>
 
                 <ul className={`mobile-menu ${mobileNav ? 'open' : ''} flex flex-col bg-bg lg:bg-transparent lg:static w-full lg:w-max px-4 py-4 lg:px-0 lg:py-0 absolute top-full right-0 lg:flex-row gap-6 text-xs text-text-dim tracking-widest uppercase`}>
