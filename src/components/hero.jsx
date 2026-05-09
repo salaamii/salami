@@ -1,7 +1,7 @@
 
 const Hero = ()=> {
     return (
-        <section className="hero-container min-h-screen flex justify-center items-start pt-24 relative overflow-hidden">
+        <section className="hero-container min-h-[100dvh] flex justify-center items-start pt-24 relative overflow-hidden">
 
             <div className="hero-line "></div>
             <div className="hero-line"></div>
