@@ -21,6 +21,11 @@
     margin: 0;
   }
 
+
+  nav {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
   
 
   .nav-link {
