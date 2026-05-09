@@ -20,6 +20,12 @@
     background-color: var(--color-bg);
   }
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .nav-link {
     position: relative;
   }
@@ -88,6 +94,19 @@ body::before {
   max-height: 300px;
   padding: 1rem 0;
   
+}
+
+@media (min-width: 1024px) {
+  .mobile-menu {
+    max-height: none;
+    overflow: visible;
+    padding: 0;
+    border: none;
+  }
+
+  .mobile-menu li {
+    border-bottom: none;
+  }
 }
 
 
