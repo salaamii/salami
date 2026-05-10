@@ -3,6 +3,7 @@ import {useState} from 'react';
 const Navbar = () => {
 
     const [mobileNav, setMobileNav] = useState(false);
+    const [hamburger, setHamburger] = useState(false);
     
 
     return (
@@ -20,7 +21,7 @@ const Navbar = () => {
 
                 <button className=' hidden lg:flex border border-green text-green py-2 px-5 hover:bg-green hover:text-bg transition-colors cursor-pointer' onClick={()=> {}}>HIRE ME</button>
 
-              <div className="hamburger lg:hidden"><i onClick={()=>{setMobileNav(!mobileNav)}} className="fa-solid fa-bars fa-2xl text-white cursor-pointer "></i></div>
+              <div className="hamburger lg:hidden"><i onClick={()=>{setMobileNav(!mobileNav)}} className={`${mobileNav ? 'fa-xmark' : 'fa-bars'} fa-solid fa-bars fa-2xl text-white cursor-pointer`}></i></div>
 
             
             </nav>
