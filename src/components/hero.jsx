@@ -12,7 +12,7 @@ const Hero = ()=> {
                     <p className="">FRONTEND DEVELOPER - LAGOS. NG</p>
                 </div>
 
-                <h1 className="font-condensed font-extrabold text-[clamp(5rem,14vw,11.5rem)] leading-[0.88] text-white uppercase tracking-[-0.02em] mb-[0.2em] text-center">SAL<span className="name-outline">AMI</span></h1>
+                <h1 className="font-condensed font-extrabold text-[clamp(5rem,14vw,11.5rem)] leading-[0.88] text-white pr-[40%] uppercase tracking-[-0.02em] mb-[0.2em] text-center">SAL<span className="name-outline">AMI</span></h1>
 
                 <p className="hero-desc text-text text-[1.2rem] lg:text-[1rem] text-left lg:max-w-[400px] w-90 leading-[1.8] mb-12 border-l border-green pl-5">
                     Frontend developer with a background in Statistics and Computer Science.
