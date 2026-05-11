@@ -28,11 +28,13 @@ const About = () => {
             </div>
 
             <div className="stack-container">
+
                 <div className="frontend-stack">
+                    
                     <h3 className="text-text-dim uppercase mb-3 font-bold">Stack</h3>
                     <div className="stack grid grid-cols-3 gap-2 mb-4">
                         {frontend.map((skill)=> (
-                            <p className="w-full text-center border border-green mb-2 px-2 py-1 text-green bg-green-dim" key={skill}>{skill}</p>
+                            <p className="w-full text-center border border-green mb-2 px-2 py-1 lg:text-[1.2rem] text-green bg-green-dim" key={skill}>{skill}</p>
                         ))}
                     </div>    
                 </div>
@@ -41,7 +43,7 @@ const About = () => {
                     <h3 className="text-text-dim uppercase mb-3 font-bold text-right">Tools</h3>
                     <div className="tool grid grid-cols-3 gap-2">
                         {tools.map((tool)=> (
-                            <p className="w-full text-center border border-green mb-2 px-2 py-1 text-green bg-green-dim" key={tool}>{tool}</p>
+                            <p className="w-full text-center border text-[1.2rem] border-green mb-2 px-2 py-1 text-green bg-green-dim" key={tool}>{tool}</p>
                         ))}
                     </div>    
                 </div>
