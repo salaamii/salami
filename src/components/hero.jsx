@@ -7,7 +7,7 @@ const Hero = ()=> {
             <div className="hero-line"></div>
             <div className="hero-line"></div>
 
-            <div className="text-container flex flex-col md:items-center text-center gap-6 w-full mt-4 mx-auto max-w-[1000px] px-6 lg:pl-[10%] lg:px-0">
+            <div className="text-container flex flex-col md:items-center text-center gap-6 w-full mt-4 mx-auto max-w-[1000px] px-6 lg:pl-[0%] lg:px-0">
                 <div className="hero-eyebrow font-mono text-[0.8rem] lg:text-[1rem] text-green tracking-widest uppercase mb-8 flex items-center gap-3">
                     <p className="">FRONTEND DEVELOPER - LAGOS. NG</p>
                 </div>
