@@ -1,7 +1,8 @@
+import {frontend, tools} from '../data/skills'
+
 const About = () => {
 
-    const frontend = ['HTML5', 'CSS3', 'Javascript', 'SCSS', 'Tailwind', 'React'];
-    const tools = ['Vite', 'Vercel', 'VS Code', 'Git', 'Github', 'Supabase']
+   
     return (
         <section className="about bg-bg2 flex flex-col lg:grid lg:grid-cols-2 lg:items-center lg:justify-center justify-between gap-4 lg:gap-20 text-text px-8 py-2 lg:py-32 lg:px-12">
 
