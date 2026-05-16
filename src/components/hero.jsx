@@ -17,7 +17,7 @@ const Hero = ()=> {
                 <p className="hero-desc text-text text-[1.2rem] lg:text-[1rem] text-left lg:max-w-[400px] w-90 leading-[1.8] mb-12 border-l border-green pl-5">
                     Frontend developer with a background in Statistics and Computer Science.
                      I build clean, functional web applications, and when I'm not writing code,
-                     I produce music under <a href="https://freiyardstd.vercel.app" className="about-link text-green underline" target="_blank">DRKCHLD</a>.
+                     I produce music under <a href="https://Bio.site/DRKCHLD" className="about-link text-green underline" target="_blank">DRKCHLD</a>.
                 </p>
 
                 <div className="hero-cta flex flex-col lg:flex-row md:flex-row gap-6 font-mono font-extrabold tracking-widest">
