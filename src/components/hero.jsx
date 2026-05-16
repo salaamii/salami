@@ -21,8 +21,8 @@ const Hero = ()=> {
                 </p>
 
                 <div className="hero-cta flex flex-col lg:flex-row md:flex-row gap-6 font-mono font-extrabold tracking-widest">
-                    <button className='border border-text-dim text-bg bg-green py-3 px-4 lg:py-4 lg:px-8 cursor-pointer'>VIEW WORK</button>
-                    <button className='border border-text-dim bg-bg text-text-dim py-3 px-4 lg:py-4 lg:px-8 hover:text-green hover:text-green hover:border-green transition-colors cursor-pointer'>GET IN TOUCH</button>
+                   <a href="#projects"> <button className='border border-text-dim text-bg bg-green py-3 px-4 lg:py-4 lg:px-8 cursor-pointer'>VIEW WORK</button></a>
+                   <a href="#contact"><button className='border border-text-dim bg-bg text-text-dim py-3 px-4 lg:py-4 lg:px-8 hover:text-green hover:text-green hover:border-green transition-colors cursor-pointer'>GET IN TOUCH</button></a>
 
                 </div>
                 

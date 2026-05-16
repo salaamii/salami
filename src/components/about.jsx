@@ -4,7 +4,7 @@ const About = () => {
 
    
     return (
-        <section className="about bg-bg2 flex flex-col lg:grid lg:grid-cols-2 lg:items-center lg:justify-center justify-between gap-4 lg:gap-20 text-text px-8 py-2 lg:py-32 lg:px-12">
+        <section id='about' className="about bg-bg2 flex flex-col lg:grid lg:grid-cols-2 lg:items-center lg:justify-center justify-between gap-4 lg:gap-20 text-text px-8 py-2 lg:py-32 lg:px-12">
 
             <div className="text-container ">
                 <p className="text-green font-mono text-[0.9rem] text-right lg:text-left">// WHO I AM</p>
@@ -23,7 +23,7 @@ const About = () => {
                     </p>
                     <p className="reveal reveal-delay-3 text-text leading-[1.9] text-[0.95rem]">
                         Outside of code, I produce and mix music as
-                         <a href="https://freiyardstd.vercel.app" className="font-mono text-[0.65rem] text-green tracking-[0.1em] no-underline border-b border-green pb-[2px]" target="_blank"> DRKCHLD</a>
+                         <a href="https://Bio.site/DRKCHLD" className="font-mono text-[0.65rem] text-green tracking-[0.1em] no-underline border-b border-green pb-[2px]" target="_blank"> DRKCHLD</a>
                          , a whole separate world, same attention to craft.
                     </p>
             </div>
