@@ -29,7 +29,7 @@ const Navbar = () => {
             {mobileNav && (
                 <div 
                     onClick={() => setMobileNav(false)} 
-                    className="fixed inset-0 bg-black/60 z-40 lg:hidden"
+                    className="fixed inset-0 bg-bg z-40 lg:hidden"
                 ></div>
             )}
         </>
