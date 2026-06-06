@@ -19,7 +19,7 @@ const Navbar = () => {
                     <li> <a href="#contact" onClick={()=> setMobileNav(false)} className='nav-link hover:text-green px-4 py-2 lg:px-2 lg:py-0 transition-colors cursor-pointer text-green lg:text-text-dim font-bold block border-b lg:border-0 w-48 lg:w-max'>Contact</a></li>
                 </ul>
 
-                <button className=' hidden lg:flex border border-green text-green py-2 px-5 hover:bg-green hover:text-bg transition-colors cursor-pointer' onClick={()=> {}}>HIRE ME</button>
+                <a href="#contact"><button className=' hidden lg:flex border border-green text-green py-2 px-5 hover:bg-green hover:text-bg transition-colors cursor-pointer' onClick={()=> {}}>HIRE ME</button></a>
 
               <div className="hamburger lg:hidden"><i onClick={()=>{setMobileNav(!mobileNav)}} className={`${mobileNav ? 'fa-xmark' : 'fa-bars'} fa-solid fa-bars fa-2xl text-white cursor-pointer`}></i></div>
 

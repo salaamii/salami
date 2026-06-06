@@ -8,7 +8,7 @@ export const projects = [
         desc: 'A music commerce platform built in React...',
         tags: ['React', 'React Router', 'useState', 'Vercel'],
         live: 'https://freiyardstd.vercel.app',
-        github: '#'
+        github: 'https://github.com/salaamii/freiyardstd'
     },
     {
         id: '02',
@@ -16,8 +16,18 @@ export const projects = [
         desc: 'A vanilla JS eCommerce storefront...',
         tags: ['HTML5', 'CSS3', 'Vanilla JS', 'GitHub Pages'],
         live: 'https://salaamii.github.io/urbanjungle',
-        github: '#'
+        github: 'https://github.com/salaamii/urbanjungle'
+    },
+
+    {
+        id: '03',
+        title: 'FilmBucket',
+        desc: 'A React JS Movie discovery app...',
+        tags: ['ReactJS', 'TailwindCSS', 'Context API', 'LocalStorage', 'GitHub Pages', 'Vercel'],
+        live: 'https://filmbucket.vercel.app',
+        github: 'https://github.com/salaamii/filmbucket'
     }
+
 
 
 ]
